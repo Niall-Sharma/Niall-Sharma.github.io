@@ -1,3 +1,13 @@
 body {
     color: rgb(61, 61, 61);
 }
+#cover
+{
+    padding: 22em;
+}
+@media(max-width: 998px) {
+    #cover
+    {
+        padding: 64px 32px 64px 32px;
+    }
+}
