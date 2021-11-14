@@ -11,7 +11,6 @@
     color: var(--carbon);
 }
 
-
 #cover {
     padding: 20em;
 }
@@ -23,11 +22,11 @@
 }
 
 #fade-in h1, #fade-in h2{
-    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 3s; /* Firefox < 16 */
-        -ms-animation: fadein 3s; /* Internet Explorer */
-         -o-animation: fadein 3s; /* Opera < 12.1 */
-            animation: fadein 3s;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
 }
 
 
@@ -68,3 +67,13 @@
     transition-duration: 0.2s;
     transform: scale(1.05);
 }
+
+input[type=text], input[type=email]{
+    width: 50%;
+    transition: ease-in-out, width .50s ease-in-out;
+  }
+
+input[type=text]:focus, input[type=email]:focus{
+    width: 100%;
+  }
+
