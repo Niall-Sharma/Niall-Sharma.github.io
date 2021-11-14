@@ -3,7 +3,7 @@ body {
 }
 #cover
 {
-    padding: 22em;
+    padding: 20em;
 }
 @media(max-width: 998px) {
     #cover
