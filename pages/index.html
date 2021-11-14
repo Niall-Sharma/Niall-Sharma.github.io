@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://unpkg.com/petite-vue" defer init></script>
+    </head>
+    <body>
+        <div v-scope="{ count: 0 }">
+            {{ count }}
+            <button @click="count++">inc</button>
+        </div>
+    </body>
+</html>
