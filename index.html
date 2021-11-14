@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://unpkg.com/petite-vue" defer init></script>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div v-scope="{ count: 0 }">
-            {{ count }}
-            <button @click="count++">inc</button>
+        <h1>THEME TEST</h1>
+        <div v-scope="{ sox: 0 }">
+            <button @click="sox++">Button Test: {{sox}}</button>
         </div>
     </body>
 </html>
