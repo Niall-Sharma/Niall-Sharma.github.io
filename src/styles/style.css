@@ -13,6 +13,7 @@
 
 #cover {
     padding: 20em;
+    border-radius: 0% !important;
 }
 
 @media(max-width: 998px) {
