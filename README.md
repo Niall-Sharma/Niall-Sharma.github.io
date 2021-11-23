@@ -1,6 +1,7 @@
 # Niall-Sharma.github.io
 Repository for portfolio website
 
+# License
 MIT License
 
 Copyright (c) 2021 Niall K. Sharma
