@@ -1,5 +1,4 @@
-# Niall-Sharma.github.io
-Repository for portfolio website
+# Repository for portfolio website
 
 # License
 MIT License
